@@ -1,0 +1,60 @@
+@use '../../app.component.scss' as colors; // NEDEN ÇALIŞMAZSIN Kİ
+
+$color-gray :#D9D9D9;
+$color-white: #FFFFFF; 
+
+div{
+    font-family: 'Lexend';
+}
+.header-outer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 71%;
+    height: 120px;
+    background-color: $color-gray;
+    overflow: auto;
+    flex-direction: row;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    left: 0%;
+    right: 0%;
+    top: 4.74%;
+    bottom: 3.68%;
+    
+    border-radius: 28px;
+}
+
+.header div {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: $color-white;
+
+}
+
+.header h2 {
+    font-size: 150%;
+}
+
+#home {
+    border-radius: 20px 0px 0px 20px;
+}
+#about { border-radius: 0px 20px 20px 0px;
+}
+
+
+
