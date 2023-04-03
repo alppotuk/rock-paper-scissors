@@ -1,0 +1,11 @@
+$color-gray :#D9D9D9;
+$color-white: #FFFFFF; 
+
+.outer-container {
+    display: flex;
+    background : $color-gray;
+    
+    height: 100px;
+    margin: 2%;
+
+}
